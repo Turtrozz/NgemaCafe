@@ -1,0 +1,2351 @@
+
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+/* +++++++++++++++++++++++Project Details+++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*****************************************************************************
+
+	Project Name : Turtrozz Coming Soon page
+	Version 	 : 1.0
+	Author		 : Turtrozz
+	Website		 : www.turtrozz.com
+	Date Created : 24/07/2017
+
+******************************************************************************/
+
+
+
+
+
+
+/* +++++++++++++++++++Coding Style++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*****************************************************************************
+
+
+	1. Element styles are applied in the order of their appearance in
+	   html document's hierachical structure.
+	2. Style properties are applied alphabeticaly inside each style rule.
+	3. Class and ID names define content instead of structure.
+
+
+*****************************************************************************
+
+
+
+
+/*****************************************************************************
+
+		=========TABLE OF CONTENTS=====
+		
+		**Brand related content
+
+	
+
+******************************************************************************/
+
+
+
+
+body{
+	
+	max-width: 1500px;
+	
+}
+
+
+#wrapper{
+	
+	overflow-x: hidden;
+	width: 100%;	
+	
+	
+}
+
+strong{
+	
+	content: "";
+	display: block;
+	
+	
+}
+
+.full-background-content{
+	
+	
+	background-image: url(../imgs/full-backg.jpg);
+	background-color: rgba(204,204,204,.5);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+	
+	
+}
+
+.full-background-overlay {
+	
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(255,255,255,.3);
+	
+}
+
+header{
+	
+	background-color: rgba(204,204,204,.2);
+	margin:0 auto;
+	width: 100%;
+	
+}
+
+
+header article{
+	
+	
+	margin: 0 auto;
+	width: 98%;
+	
+	
+}
+
+header article section{
+	
+	float: left;
+	width: 33%;
+	
+}
+
+header article section:first-of-type ul li{
+	
+	padding-top: 15px;
+	
+}
+
+
+header article > section:nth-child(3){
+	
+	background-color: #F00;
+	height: 80px;
+	
+	
+	
+}
+
+header article section:last-of-type ul li{
+	
+	padding-top: 15px;
+	
+}
+
+
+
+
+header article section ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+		
+}
+
+header article section ul li{
+	
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 18%;	
+		
+}
+
+header article section:first-of-type li{
+	
+	width: 12%;
+		
+}
+
+
+/***********************Database search******************************/
+
+header ul li .store-search{
+	
+	
+	background-color: rgba(255,255,255,1);
+	display: none;
+	right: 2%;
+	padding-left: 2%;
+	position: absolute;
+	width: 500px;
+	z-index: 1;
+	
+	
+}
+
+
+header ul li:hover .store-search{
+	
+	display: block;
+
+	
+	
+}
+
+header ul li .store-search section{
+	
+	
+	width: 100%;
+	
+}
+
+header ul li .store-search section form{
+	
+	
+	width: 100%;
+	
+}
+
+header ul li .store-search section form p span{
+	
+	display: inline-block;
+	
+}
+
+header ul li .store-search section form p span:first-child{
+	
+	margin-right: 5%;
+	width:70%;
+	
+}
+
+header ul li .store-search section form p span:first-child input{
+	
+	border: none;
+	height: inherit;
+	width:100%;
+	
+}
+
+header ul li .store-search section form p span:last-child{
+	
+	height: 50px;
+	width:25%;
+	
+}
+
+header ul li .store-search section form p span:last-child input[value~="Search"]{
+	
+	background-color: #333;
+	border: none;
+	height: inherit;
+	color: #FFF;
+	font-size: 1.3em;
+	width: 100%;
+	
+}
+
+header ul li .store-search section form p span:last-child input[value~="Search"]:hover{
+	
+	background-color: rgba(204,204,204,.5);
+	color: #0CC;
+	
+	
+}
+
+
+
+
+/***********************Wish Cart******************************/
+
+
+header ul li:nth-child(2) span{
+	
+	
+	background-color: #FFF;
+	border:solid 1px #CCCCCC;
+	border-radius: 15px;
+	font-size: .6em;
+	font-weight: 900;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	top: 16px;
+	right: 24.3%;
+	width: 15px;
+	
+	
+	
+	
+}
+
+
+.wish-sum{
+	
+	
+	background-color: rgba(255,255,255,1);
+	display: none;
+	right: 25%;
+	padding-left:10px;
+	position: absolute;
+	width: 280px;
+	z-index: 1;
+	
+	
+	
+}
+
+.wish-sum > div{
+	
+	border-bottom:solid 1px #0CC;
+	border-right:solid 1px #0CC;
+	width: 100%;
+	
+	
+}
+
+
+header ul li:nth-child(2):hover .wish-sum{
+	
+	display: block;
+	
+}
+
+.wish-sum section{
+	
+	
+	width: 50%;
+	
+}
+
+.wish-sum section p img{
+	
+	
+	border:solid 3px #CCCCCC;
+	border-radius: 3px;
+	
+}
+
+.wish-sum section b{
+
+	display: block;
+	padding-top: 5px;
+	
+}
+
+.wish-sum section b form{
+
+	width: 100%;
+	
+}
+
+.wish-sum section b form input[value~="x"]{
+
+	border: none;
+	background-color: #FFF;
+	color: #F00;
+	font-size:.7em;
+	padding-left: 80%;
+	
+}
+
+.wish-sum section b:nth-child(2){
+
+	font-size: .9em;
+	padding-left: 10%;
+	
+}
+
+.wish-sum section b:nth-child(3){
+
+	font-size: .8em;
+	padding-left: 10%;
+	
+}
+
+.wish-sum section b a{
+
+	text-decoration: none;
+	color: #333;
+}
+
+
+
+
+
+/***********************Shopping Cart******************************/
+
+
+header ul li:nth-child(3) span{
+	
+	
+	background-color: #FFF;
+	border:solid 1px #CCCCCC;
+	border-radius: 15px;
+	font-size: .6em;
+	font-weight: 900;
+	height: 15px;
+	position: absolute;
+	text-align: center;
+	top: 16px;
+	right: 20%;
+	width: 15px;
+	
+	
+	
+	
+}
+
+
+
+#cart-sum{
+	
+	
+	background-color: rgba(255,255,255,1);
+	display: none;
+	right: 19%;
+	padding-left:10px;
+	position: absolute;
+	width: 280px;
+	z-index: 1;
+	
+	
+	
+}
+
+header ul li:nth-child(3):hover #cart-sum{
+	
+	display: block;
+	
+}
+
+#cart-sum > div{
+	
+	border-bottom:solid 1px #FF0000;
+	border-right:solid 1px #FF0000;
+	width: 100%;
+	
+	
+}
+
+#cart-container > div{
+	
+	border-bottom:solid 1px #FF0000;
+	border-right:solid 1px #FF0000;
+	width: 100%;
+	
+	
+}
+
+
+
+#cart-sum section{
+	
+	width: 50%;
+	
+}
+
+#cart-sum section p img{
+	
+	
+	border:solid 3px #CCCCCC;
+	border-radius: 3px;
+	
+}
+
+#cart-sum section b{
+
+	display: block;
+	padding-top: 5px;
+	
+}
+
+#cart-sum section b form{
+
+	width: 100%;
+	
+}
+
+#cart-sum section b form input[value~="x"]{
+
+	border: none;
+	background-color: #FFF;
+	color: #F00;
+	font-size:.7em;
+	padding-left: 80%;
+	
+}
+
+#cart-sum section b:nth-child(2){
+
+	font-size: .9em;
+	padding-left: 10%;
+	
+}
+
+#cart-sum section b:nth-child(3){
+
+	font-size: .8em;
+	padding-left: 10%;
+	
+}
+
+#cart-sum section b a{
+
+	text-decoration: none;
+	color: #333;
+}
+
+#cart-sum #cart-view-check-content{
+	
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-bottom: none;
+	
+	
+}
+
+
+ #cart-view-check-content section form{
+	
+	width: 100%;
+	
+	
+}
+
+#cart-view-check-content section form input{
+	
+	background-color: #0CC;
+	border: none;
+	color: #FFF;
+	font-size: 1em;
+	width: 80%;
+	
+	
+}
+
+
+#cart-view-check-content section:nth-child(2) form{
+	
+	padding-left: 10%;
+	
+	
+}
+
+
+
+
+
+/***********************User Account******************************/
+
+
+header ul li:nth-child(4) .user-account{
+	
+	background-color: rgba(255,255,255,1);
+	display: none;
+	right: 2%;
+	padding-left: 2%;
+	position: absolute;
+	width: 500px;
+	z-index: 1;
+	
+}
+
+header ul li:nth-child(4):hover .user-account{
+	
+	
+	display: block;
+	
+}
+
+header ul li:nth-child(4) .user-account section{
+	
+	float: left;
+	width: 50%;
+	
+}
+
+header ul li:nth-child(4) .user-account h2{
+	
+	color: #0C9;
+	
+}
+
+header ul li:nth-child(4) .user-account section h3{
+	
+	
+	color: #999;
+	
+}
+
+header ul li:nth-child(4) .user-account section h4{
+	
+	
+	color: #0C9;
+	font-size: 1.1em;
+	
+}
+
+.user-account section form{
+	
+	width: 100%;
+	
+}
+
+.user-account section form a{
+	
+	color: #000;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 35%;
+	text-decoration: none;
+	
+}
+
+
+.user-account section form label{
+	
+	
+	color: #F90;
+	
+}
+
+.user-account section form input{
+	
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	padding: 1%;
+	width:85%;
+	
+}
+
+.user-account section form input[value~="Login"]{
+	
+	background-color: #0CF;
+	color: #FFF;
+	border: none;
+	font-size: 1.3em;
+	padding-top: 1%;
+	width:80%;
+	
+}
+
+.user-account section form input[value~="Login"]:hover{
+	
+	background-color: rgba(204,204,204,.5);
+	color: #0CF;
+	
+	
+}
+
+.user-account section:nth-child(2) p{
+	
+	font-size: .9em;
+	
+	
+}
+
+.user-account section:last-of-type p:last-of-type{
+	
+	top: 33px;
+	position: relative;
+}
+
+.user-account section:last-of-type p a{
+	
+	text-decoration: none;
+}
+
+.user-account section:last-of-type p a button{
+	
+	background-color: #0CF;
+	border:none;
+	border-radius: 3px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 1.3em;
+	padding-top: 1%;
+	width:80%;
+
+	
+}
+
+.user-account section:last-of-type p a button:hover{
+	
+	background-color: rgba(204,204,204,.5);
+	color: #0CF;
+	
+	
+}
+
+.user-account section:last-of-type span{
+	
+	background-color: #CCC;
+	content:"";
+	display: inline-block;
+	height: 150px;
+	position: absolute;
+	right: 51%;
+	top: 100px;
+	width: 1px;
+}
+
+
+
+
+
+
+/***********************User Account Pages******************************/
+
+
+.uaccount-content{
+	
+	
+	height: 100vh;
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.uaccount-content > article{
+	
+	float: left;
+}
+
+.uaccount-content .uaccount-nav-content{
+
+	width: 20%;
+}
+
+.uaccount-content .uaccount-nav-content h3{
+
+	margin-bottom: 40px;
+}
+
+
+.uaccount-content .uaccount-nav-content ul{
+
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+
+.uaccount-content .uaccount-nav-content ul li{
+
+	border-bottom:solid 2px rgba(204,204,204,.2);
+	margin-bottom: 30px;
+	width: 95%;
+}
+
+.uaccount-content .uaccount-nav-content ul li a{
+
+	color: #666;
+	font-size: .8em;
+	padding-left: 20%;
+	padding-bottom: 5px;
+	text-decoration: none;
+	
+}
+.uaccount-content .uaccount-nav-content ul li a:active{
+
+	color: #000;
+	
+	
+}
+.uaccount-content .uaccount-nav-content ul li a:hover{
+
+	color: #0CF;
+	
+	
+}
+
+
+
+
+.uaccount-content .uaccount-settings-content{
+	
+	margin-left: 8%;
+	width: 70%;
+}
+
+.uaccount-content .uaccount-settings-content h3{
+	
+	padding-left: 10%;
+	margin-bottom: 150px;
+}
+
+.uaccount-content .uaccount-settings-content p b{
+	
+	color: #CCC;
+	display: block;
+	font-size: 1.5em;
+	
+}
+
+.uaccount-content .uaccount-settings-content p b:first-child{
+	
+	padding-left: 15%;
+	
+}
+
+
+/******User registration***********/
+
+
+.user-registration{
+	
+	
+	background-color: rgba(204,204,204,.2);
+	height: auto;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	width: 100%;
+	
+	
+	
+}
+
+
+
+.user-registration h1{
+	
+	font-size: 1.5em;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	width: 60%;
+	padding-left: 7%;
+	
+	
+	
+}
+
+
+.user-registration > div{
+	
+	
+	margin: 0 auto;
+	width: 40%;
+	
+	
+	
+}
+
+.user-registration > div small{
+	
+	
+	font-size: .7em;
+	font-style:italic;
+	
+	
+	
+}
+
+.user-registration > div form{
+	
+	
+	
+	width: 100%;
+	
+}
+
+.user-registration > div form input{
+	
+	border: none;
+	border-radius: 3px;
+	border:solid 1px #0CF;
+	padding-left: 2%;
+	height: 30px;
+	font-weight:400;
+	width: 60%;
+
+}
+
+.user-registration > div form input[value~="newsletter"]{
+	
+	border: none;
+	border-radius: 3px;
+	border:solid 1px #0CF;
+	height: auto;
+	padding-left: 0;
+	width: 10%;
+
+}
+
+.user-registration > div form input[name~="userSub"]{
+	
+	background-color: #0CF;
+	border: none;
+	color: #FFF;
+	font-weight: 600;
+	
+	
+
+}
+
+.user-registration > div form input[name~="userSub"]:hover{
+	
+	
+	color: #000;
+	
+	
+	
+
+}
+
+.user-registration > div form select{
+	
+	border: none;
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	height: 50px;
+	text-align: center;
+	width: 62%;
+}
+
+.user-registration > div form p span{
+	
+	display: block;
+	font-size: .9em;
+	margin-top: 10px;
+}
+
+.user-registration > div form p span a{
+	
+	text-decoration:none;
+	color: #0CF;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.user-registration > div form p span a:hover{
+	
+
+	color: #999;
+	
+}
+
+
+
+/******User Login Alternative***********/
+
+
+.user-alt-login{
+	
+	
+	background-color: rgba(204,204,204,.2);
+	height: 100vh;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	width: 100%;
+	
+	
+	
+}
+
+
+
+.user-alt-login h1{
+	
+	
+	font-weight: bold;
+	font-size: 2em;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	padding-right: 12%;
+	text-align: center;
+	
+	
+	
+	
+}
+
+
+.user-alt-login > div{
+	
+	
+	margin: 0 auto;
+	width: 40%;
+	
+	
+	
+}
+
+
+.user-alt-login > div form{
+	
+	
+	padding-left: 10%;
+	width: 100%;
+	
+}
+
+.user-alt-login > div form input{
+	
+	border: none;
+	border-radius: 3px;
+	border:solid 1px #0CF;
+	padding-left: 2%;
+	height: 30px;
+	font-weight:400;
+	width: 60%;
+
+}
+
+
+.user-alt-login > div form input[name~="logSub"]{
+	
+	background-color: #0CF;
+	border: none;
+	color: #FFF;
+	font-weight: 600;
+	
+	
+
+}
+
+.user-alt-login > div form input[name~="logSub"]:hover{
+	
+	
+	color: #000;
+
+}
+
+.user-alt-login > div section ul{
+	
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	padding-left: 20%;
+
+}
+
+.user-alt-login > div section ul li{
+	
+	margin-bottom: 20px;
+}
+
+
+.user-alt-login > div section ul li a{
+	
+	text-decoration: none;
+	color: #999;
+}
+
+
+
+
+
+/******************Cafeteria main navigation Menu***************/
+
+
+
+header li:last-child .main-navigation-menu{
+	
+	
+	background-color: #FFF;
+	display: none;
+	position:absolute;
+	right: 2%;
+	top: 75px;
+	width:15%;
+	z-index: 1;
+	
+}
+
+header li:last-child:hover .main-navigation-menu{
+	
+	
+	display: block;
+	
+}
+
+
+header li:last-child .main-navigation-menu ul{
+	
+	width: 100%;
+}
+
+header li:last-child .main-navigation-menu ul li{
+	
+	
+	border-bottom:solid 1px #CCCCCC;
+	display:block;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: relative;
+	width: 100%;
+	
+}
+
+header li:last-child .main-navigation-menu ul li:hover{
+	
+	
+	background-color: #F00;
+	
+	
+}
+
+header li:last-child .main-navigation-menu ul li a{
+	
+	color: #000;
+	padding-left: 30%;
+	position: relative;
+	text-decoration: none;
+	width: 100%;
+	
+	
+}
+
+header li:last-child .main-navigation-menu ul li a:hover{
+	
+	color: #FFF;
+	
+}
+
+.header-underliner{
+	
+	
+	border-bottom:solid thin rgba(153,153,153,1);
+	content: "";
+	display: block;
+	margin:0 auto;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	
+	
+}
+
+
+
+
+/******************Cafeteria Registered User navigation Menu***************/
+
+
+header li:nth-child(4) .registered-user-nav{
+	
+	
+	background-color: #FFF;
+	display: none;
+	position:absolute;
+	right: 12%;
+	top: 75px;
+	width:15%;
+	z-index: 1;
+	
+}
+
+header li:nth-child(4):hover .registered-user-nav{
+	
+	
+	display: block;
+	
+}
+
+
+header li:nth-child(4) .registered-user-nav ul{
+	
+	width: 100%;
+}
+
+header li:nth-child(4) .registered-user-nav ul li{
+	
+	
+	border-bottom:solid 1px #CCCCCC;
+	display:block;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: relative;
+	width: 100%;
+	
+}
+
+header li:nth-child(4) .registered-user-nav ul li:hover{
+	
+	
+	background-color: #0CF;
+	
+	
+}
+
+header li:nth-child(4) .registered-user-nav ul li a{
+	
+	color: #000;
+	padding-left: 30%;
+	position: relative;
+	text-decoration: none;
+	width: 100%;
+	
+	
+}
+
+header li:nth-child(4) .registered-user-nav ul li a:hover{
+	
+	color: #FFF;
+	
+}
+
+
+
+
+
+
+
+
+
+/* Main Content  */
+
+.main-content{
+	
+	
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	width: 90%;
+	
+	
+}
+
+.main-content section{
+	
+	
+	margin: 0 auto;
+	padding-left: 15%;
+	width: 50%;
+}
+
+.main-content section h1{
+	
+	
+	font-size: 2.5em;
+}
+
+.main-content section h3{
+	
+	
+	color: #333;
+	margin-left: 12%;
+	position: relative;
+	bottom: 20px;
+	
+}
+
+.main-content section p{
+	
+	
+	background-color: #000;
+	color: #FFF;
+	font-size: 1.5em;
+	margin-left: 8%;
+	position: relative;
+	text-align: center;
+	width: 35%;
+	
+	
+}
+
+.main-content section p:hover{
+	
+	
+	background-color: #FFF;
+	
+}
+
+.main-content section p:hover a{
+	
+	
+	color: #000;
+	
+}
+
+.main-content section p a{
+	
+	
+	
+	color: #FFF;
+	text-decoration: none;
+	
+	
+	
+}
+
+
+
+
+
+
+footer{
+
+	background-color: #FFF;
+	bottom: 0;
+	padding-top: 2%;
+	position: relative;
+	width: 100%;
+	
+}
+
+footer article{
+	
+	margin: 0 auto;
+	width: 98%;
+	
+	
+}
+
+footer article section{
+	
+	float: left;
+	width: 50%;
+	
+	
+}
+
+footer article section:last-of-type ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	
+	
+}
+
+footer article section:last-of-type ul li{
+	
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 18%;
+	
+	
+}
+
+footer article section:last-of-type ul li:first-child{
+	
+	padding-left: 7%;
+	
+	
+}
+
+
+
+
+
+
+/*=====================================================================
+
+	Restuarant page/shop page
+
+=======================================================================*/
+
+
+.m-shop-content-container{
+	
+	background-color: rgba(255,255,255,1)sss;
+	padding-bottom: 3%;
+	width: 100%;
+	
+	
+	
+}
+
+
+.m-shop-content{
+	
+	
+	margin:0 auto;
+	width: 96%;
+	
+	
+}
+
+.m-shop-content > h1{
+	
+	
+	text-align: center;
+	
+	
+}
+
+
+.m-shop-content > article {
+	
+	
+	margin:0 auto;
+	padding-left: 3%;
+	width: 80%;
+	
+	
+}
+
+.m-shop-content > article > section{
+	
+	
+	float: left;
+	height: 400px;
+	width: 50%;
+	
+	
+}
+
+.m-shop-content > article > section a{
+	
+	display: block;
+	
+}
+
+.m-shop-content > article > section div{
+	
+	background-color: rgba(255,0,0,.5);
+	color: #FFF;
+	display: block;
+	height: 300px;
+	margin-top: 3%;
+	position: absolute;
+	width: 450px;
+	
+	
+}
+
+.m-shop-content > article > section div p{
+	
+	margin:0 auto;
+	padding-left: 10%;
+	padding-top: 20%;
+	width: 50%;
+	
+	
+}
+
+.m-shop-content > article > section div p span{
+	
+	display: block;
+	font-size: 1.3em;
+	margin-bottom: 15px;
+	font-weight: 900;
+	
+}
+
+.m-shop-content > article > section div p small{
+	
+	display: block;
+	font-size: 1.1em;
+	
+	
+}
+
+.m-shop-content > article > section div p b{
+	
+	
+	background-color: rgba(255,255,255,.5);
+	border-radius: 50px;
+	color: #0FC;
+	display: none;
+	font-size: 1.2em;
+	font-weight: 900;
+	height: 40px;
+	margin-left: 18%;
+	margin-top: 10%;
+	padding-top: 10px;
+	text-align: center;
+	width: 50px;
+	
+	
+	
+}
+
+.m-shop-content > article > section div p b:hover{
+	
+	
+	background-color: rgba(0,0,0,.5);
+	color: #0FC;
+	
+	
+	
+	
+}
+
+.m-shop-content > article > section div:hover b{
+	
+	
+	display: block;
+	
+	
+	
+	
+}
+
+
+
+.m-shop-content > article > section img{
+	
+	
+	height: 300px;
+	width: 450px;
+	
+	
+}
+
+
+/*=====================================================================
+
+	Product listsing page(s)
+
+=======================================================================*/
+
+
+
+.m-product-content{
+	
+	
+	margin:0 auto;
+	width: 96%;
+	
+	
+}
+
+.m-product-content > h1{
+	
+	
+	font-weight: 900;
+	text-align: center;
+	
+	
+}
+
+
+.m-product-content > article {
+	
+	
+	margin:0 auto;
+	padding-left: 0;
+	width:100%;
+	
+	
+}
+
+.m-product-content > article > section{
+	
+	
+	float: left;
+	width: 25%;
+	
+	
+}
+
+.m-product-content > article > section a{
+	
+	display: block;
+	
+}
+
+.m-product-content > article > section div{
+	
+	background-color: rgba(255,255,255,.3);
+	color: #FFF;
+	display: none;
+	height: 200px;
+	margin-top: 1%;
+	position: absolute;
+	width: 300px;
+	z-index: 100;
+	
+	
+}
+
+.m-product-content > article > section:hover div{
+	
+	
+	display: block;
+	
+	
+	
+}
+
+.m-product-content > article > section div p{
+
+	
+	width: 100%;
+	
+	
+}
+
+.m-product-content > article > section div p span{
+	
+	display: block;
+	width: 100%;
+	
+}
+
+.m-product-content > article > section div form{
+	
+
+	display: inline-block;
+	float: left;
+	margin-top: 15%;
+	width: 100%;
+	
+}
+
+.m-product-content > article > section div form input{
+	
+
+	background-color: rgba(0,0,0,.6);
+	border: none;
+	border-radius: 2px;
+	font-size: .7em;
+	font-weight: 900;
+	height: 30px;
+	padding: 1%;
+	width: 50%;
+	
+}
+
+.m-product-content > article > section div form input[name~="add_to_cart_sub"]{
+	
+	
+	margin-left: 25%;
+	
+}
+
+.m-product-content > article > section div form input[name~="add_to_cart_sub"]:hover{
+	
+	
+	background-color: rgba(0,0,0,.8);
+	
+}
+
+.m-product-content > article > section div form input[name~="cart_view_sub"]{
+	
+	display: none;
+	background-color: rgba(0,153,51,1);
+	margin-left: 10%;
+	width: 70%;
+	
+}
+
+.m-product-content > article > section div form input[name~="cart_view_sub"]:hover{
+	
+
+	background-color: rgba(0,153,51,.5);
+	
+	
+}
+
+
+.m-product-content > article > section div button{
+	
+
+	display: block;
+	background-color: rgba(0,0,0,.6);
+	border: none;
+	border-radius: 2px;
+	bottom: 30px;
+	font-size: .7em;
+	font-weight: 900;
+	height: 30px;
+	margin: 0 auto;
+	padding: 1%;
+	position: relative;
+	width: 40%;
+
+	
+	
+}
+
+.m-product-content > article > section div button:hover{
+	
+
+	
+	background-color: rgba(0,0,0,.7);
+
+	
+	
+}
+
+.m-product-content > article > section h2{
+	
+	
+	padding-left: 15%;
+
+	
+	
+}
+
+.m-product-content > article > section h2 a{
+	
+	color: #999;
+	text-decoration: none;
+
+	
+	
+}
+
+
+.m-product-content > article > section h3{
+	
+	border:solid 2px #999999;
+	color: #666;
+	font-weight: 100;
+	margin-left: 15%;
+	text-align: center;
+	width: 50%;
+	
+	
+}
+
+/*==============================================================
+
+	Product details page
+
+===============================================================*/
+
+.m-product-content .product-details > div{
+	
+	float: left;
+	width: 50%;
+	
+	
+}
+.m-product-content .product-details > .product-graphic p img:hover{
+	
+	border:solid 2px #FF0000;
+	border-radius: 3px;
+	
+	
+}
+
+.m-product-content .product-details > div section{
+	
+	padding-left: 5%;
+	
+	
+}
+
+.m-product-content .product-info  section p{
+	
+	margin-bottom: 80px;
+	
+	
+}
+
+.m-product-content .product-info  section p:nth-child(2){
+	
+	width: 90%;
+	
+	
+}
+
+.m-product-content .product-info  section p:nth-child(3){
+	
+	font-size: 1.4em;
+	
+	
+}
+
+.m-product-content .product-info  section p span{
+	
+	font-size: 1.5em;
+	
+	
+}
+
+.m-product-content .product-info  section form{
+	
+	width: 100%;
+	
+	
+}
+
+.m-product-content .product-info  section form input{
+	
+	height: 50px;
+	width: 50%;
+	
+	
+}
+
+.m-product-content .product-info  section form input:first-child{
+	
+	border:solid 2px #CCCCCC;
+	border-radius: 3px;
+	padding-left: 2%;
+	width: 40%;
+	
+	
+}
+.m-product-content .product-info  section form input:nth-child(5){
+	
+	background-color: rgba(0,0,0,1);
+	border: none;
+	border-radius: 3px;
+	color: #FFF;
+	
+	
+}
+
+.m-product-content .product-info  section form input:nth-child(5):hover{
+	
+	border:solid 2px #FF0000;
+	
+	
+}
+
+
+
+/*==============================================================
+
+	Cart page
+
+===============================================================*/
+
+
+
+.cart-content{
+
+	height: auto;
+	width: 100%;
+
+}
+
+
+#cart-check{
+
+	height: auto;
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+
+#cart-check span{
+
+	display:block;
+	left: 75%;
+	position: relative;
+	width: 25%;
+	
+
+}
+
+
+#cart-check a{
+
+	color: #FFF;
+	text-decoration: none;
+	
+
+}
+
+
+#cart-check a button{
+
+	border: none;
+	background-color: #0CF;
+	font-size: .7em;
+
+}
+
+#cart-check a button:hover{
+
+	
+	background-color: #000;
+	
+}
+
+
+
+
+.cart-content section{
+
+	margin:0 auto;
+	width: 80%;
+
+}
+
+.cart-content section table{
+
+	
+	border:solid 1px rgba(204,204,204,.4);
+	border-radius: 3px;
+	width: 100%;
+}
+
+.cart-content section table thead{
+
+	background-color: rgba(204,204,204,.3);
+	font-size: 1.1em;
+	font-weight: 700;
+	height: 50px;
+}
+
+.cart-content section table tr{
+
+	height: 60px;
+	
+}
+
+.cart-content section table td{
+
+	border:solid 1px #CCCCCC;
+	text-align: center;
+	width: 16%;
+	
+}
+
+.cart-content section p{
+
+	color: #CCC;
+	margin:0 auto;
+	width: 50%;
+	font-size: 3em;
+	font-weight: 700;
+	padding-top: 15%;
+	text-align: center;
+	
+}
+
+.cart-content section p a{
+
+	text-decoration: none;
+	
+}
+
+.cart-content section p a button{
+
+	
+	background-color: #0CF;
+	border: none;
+	border-radius: 3px;
+	color: #FFF;
+	margin-top: 30px;
+	text-decoration: none;
+	width: 50%;
+	
+}
+
+.cart-content section p a button:hover{
+
+	
+	background-color: #000;
+	
+	
+}
+
+.cart-content section table:last-child{
+	
+	border: none;
+	position: relative;
+	left: 60%;
+	margin-top: 30px;
+	width: 40%;
+}
+
+
+.cart-content section table:last-child caption{
+	
+	
+	color: #999;
+	font-size: 1.4em;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+
+.cart-content section table:last-child tr{
+
+	height: 40px;
+	
+}
+
+.cart-content section table:last-child tr td{
+
+	padding-left: 20%;
+	text-align: left;
+}
+
+
+
+
+
+.cart-content section table:last-child tr:last-child td{
+
+	border: none;
+	padding-left: 0;
+	
+	
+}
+
+.cart-content section table:last-child tr:last-child td button{
+
+	background-color: #0CF;
+	border: none;
+	color: #FFF;
+	height: 50px;
+	width: 100%;
+	
+	
+}
+
+.cart-content section table:last-child tr:last-child td button:hover{
+
+	background-color: #000;
+	
+	
+}
+
+/**************************Table forms*******************************/
+
+.product-remove-f{
+	
+	width: 100%;
+	
+}
+
+.product-remove-f input:last-child{
+	
+	border: none;
+	color: #F00;
+	font-weight: 700;
+	height: 30px;
+	width: 40%;
+	
+}
+
+.product-remove-f input:last-child:hover{
+	
+	
+	color: #0CF;
+}
+
+
+.prod-name{
+	
+	font-size: 1em;
+	font-weight: 600;
+	
+}
+
+
+.product-update-f{
+
+	width: 100%;	
+	
+}
+
+.product-update-f .remove-field{
+
+	border: solid 2px rgba(204,204,204,.5);
+	border-radius: 3px;
+	margin: 0 auto;
+	text-align: center;
+	width: 40%;	
+	
+}
+
+.product-update-f .update-but{
+
+	border: none;
+	font-size: .8em;
+	font-weight: bold;
+	margin: 0 auto;
+	text-align: center;
+	width: 40%;
+	
+	
+}
+
+.product-update-f .update-but:hover{
+
+	color: #0CF;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+

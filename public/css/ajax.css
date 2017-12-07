@@ -1,0 +1,643 @@
+/* CSS Document */
+
+
+
+.clearfix:after {
+    clear: both;
+}
+
+
+#cart-action-response{
+	
+	
+	background-color: rgba(0,0,0,.5);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+	
+	
+}
+
+.cart-action-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	position: relative;
+	top: 10%;
+	width: 75%; 
+	
+	
+}
+
+.cart-action-content .cart-action-head{
+	
+	width: 100%;
+	
+	
+}
+
+.cart-action-content .cart-action-head p{
+	
+	background-color: rgba(0,0,0,.8);
+	color:#FFF;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding-top: 2%;
+	position: relative;
+	left: 95%;
+	text-align: center;
+	width: 5%;
+	
+	
+}
+.cart-action-content .cart-action-head p:hover{
+	
+	background-color: #F00;
+	
+	
+	
+}
+
+
+
+.cart-action-content .cart-action-body{
+	
+	padding-left: 2%;
+	
+	
+}
+
+.cart-action-content .cart-action-body > div{
+	
+	float: left;
+	width: 40%;
+
+}
+
+.cart-action-content .cart-action-body > div:first-child{
+	
+	
+	width: 60%;
+
+}
+
+.cart-action-content .cart-action-body .cart-product-message > section{
+	
+	
+	color: #690;
+	float: left;
+	margin-top: 0;
+	width: 85%;
+	
+	
+}
+
+.cart-action-content .cart-action-body .cart-product-message > section:first-child{
+	
+	float: left;
+	width: 15%;
+
+}
+
+.cart-action-content .cart-action-body .cart-product-message > section:first-child b{
+	
+	background-color:#690;
+	color: #FFF;
+	border-radius: 50px;
+	display: block;
+	height: 50px;
+	text-align: center;
+	width: 50px;
+
+}
+
+.cart-action-content .cart-action-body .cart-product-message > section:first-child b span{
+	
+	
+	position: relative;
+	top: 30%;
+	right: 3%;
+	
+}
+
+.cart-action-content .cart-action-body .cart-product-message > section:nth-child(2) #prod-message{
+	
+	
+	font-size: 1.1em;
+	
+}
+
+
+.cart-action-content .cart-action-body .cart-product-details > section{
+	
+	float: left;
+	width: 50%;
+
+}
+
+.cart-action-content .cart-action-body .cart-product-details > section p img{
+	
+	border-right:double 4px #0CC;
+	
+	
+}
+
+.cart-action-content .cart-action-body .cart-product-details > section:nth-child(2) p b{
+	
+	color: #999;
+	font-size: 1.1em;
+	display: block;
+	margin-bottom: 20px;
+	
+	
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section{
+	
+	margin-bottom: 50px;
+}
+
+
+.cart-action-content .cart-action-body .cart-products-summary > section h3{
+	
+	color: #999;
+	font-size: 1.2em;
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section:nth-child(2) p{
+	
+	color: #999;
+	font-weight: 600;
+	padding-left: 20%;
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section:nth-child(3) p{
+	
+	color: #999;
+	
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section:nth-child(3) p b{
+	
+	color: #F00;
+	opacity: .8;
+	
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	display: inline-block;
+	height: 30px;
+	width: 45%;
+}
+
+.cart-action-content .cart-action-body .cart-products-summary > section button:hover{
+	
+	
+	background-color: #000;
+	
+	
+}
+
+/*=====================Confirm Cart Update Modal===========================*/
+
+
+#confirm-cart-update{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+.confirm-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	position: relative;
+	top: 20%;
+	width: 50%; 
+	
+	
+}
+
+.confirm-content .confirm-cart-head{
+	
+	width: 100%;
+	
+	
+}
+
+.confirm-content .confirm-cart-head p{
+	
+	background-color: rgba(0,0,0,.8);
+	color:#FFF;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding-top: 2%;
+	position: relative;
+	left: 95%;
+	text-align: center;
+	width: 5%;
+	
+	
+}
+.confirm-content .confirm-cart-head p:hover{
+	
+	background-color: #F00;
+	
+}
+
+.confirm-content .confirm-cart-body{
+	
+	padding-left: 4%;
+	
+}
+
+.confirm-content .confirm-cart-foot{
+	
+	padding-bottom: 20px;
+	width: 100%;
+	
+}
+
+.confirm-content .confirm-cart-foot p{
+	
+	margin:0 auto;
+	width: 60%;
+	
+}
+
+.confirm-content .confirm-cart-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	height: 30px;
+	width: 40%;
+	
+}
+
+.confirm-content .confirm-cart-foot p button:hover{
+	
+	background-color: #000;
+}
+
+
+/*=====================Confirm Summary Cart Update Modal===========================*/
+
+
+#confirmsum-cart-update{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+.confirmsum-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	position: relative;
+	top: 20%;
+	width: 35%; 
+	
+	
+}
+
+.confirmsum-content .confirmsum-cart-head{
+	
+	width: 100%;
+	
+	
+}
+
+.confirmsum-content .confirmsum-cart-head p{
+	
+	background-color: rgba(0,0,0,.8);
+	color:#FFF;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding-top: 2%;
+	position: relative;
+	left: 95%;
+	text-align: center;
+	width: 5%;
+	
+	
+}
+.confirmsum-content .confirmsum-cart-head p:hover{
+	
+	background-color: #F00;
+	
+}
+
+.confirmsum-content .confirmsum-cart-body{
+	
+	padding-left: 4%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot{
+	
+	padding-bottom: 20px;
+	width: 100%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p{
+	
+	margin:0 auto;
+	width: 60%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	height: 30px;
+	width: 40%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p button:hover{
+	
+	background-color: #000;
+}
+
+/*=====================Confirm Notify Summary Cart Update Modal===========================*/
+
+
+#confirmnotify-cart-update{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+#confirmnotify-cart-update .confirm-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	padding-top: 10px;
+	position: relative;
+	top: 25%;
+	width: 20%; 
+	
+	
+}
+
+#confirmnotify-cart-update .confirm-cart-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	height: 30px;
+	width: 100%;
+	
+}
+
+#confirmnotify-cart-update .confirm-cart-foot p button:hover{
+	
+	background-color: #000;
+}
+
+
+
+
+
+/*=====================Auto login user Modal===========================*/
+
+
+#auto-log-user{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+.auto-log-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	position: relative;
+	top: 20%;
+	width: 30%; 
+	
+	
+}
+
+.auto-log-content .auto-log-head{
+	
+	width: 100%;
+	
+	
+}
+
+.auto-log-content .auto-log-head p{
+	
+	background-color: rgba(0,0,0,.8);
+	color:#FFF;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding-top: 2%;
+	position: relative;
+	left: 94%;
+	text-align: center;
+	width: 6%;
+	
+	
+}
+.auto-log-content .auto-log-head p:hover{
+	
+	background-color: #F00;
+	
+}
+
+
+.auto-log-content .auto-log-body{
+	
+	padding-left: 5%;
+	
+}
+
+
+#check-sign{
+	
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 30%;
+	
+	
+}
+
+
+#check-sign b{
+	
+	background-color:#690;
+	color: #FFF;
+	border-radius: 50px;
+	display: block;
+	height: 50px;
+	text-align: center;
+	width: 50px;
+	
+}
+
+#check-sign b span{
+	
+	position: relative;
+	top: 30%;
+	right: 3%;
+	
+}
+
+#log-alert{
+	
+	color: #0CF;
+	font-weight: bold;
+	margin: 0 auto;
+	width: 55%;
+	
+}
+
+#welcome{
+	
+	color: #999;
+	
+	
+}
+
+
+
+.auto-log-content .auto-log-foot{
+	
+	padding-bottom: 20px;
+	width: 100%;
+	
+}
+
+.auto-log-content .auto-log-foot p{
+	
+	margin:0 auto;
+	width: 80%;
+	
+}
+
+.auto-log-content .auto-log-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	font-weight: bold;
+	height: 30px;
+	width: 100%;
+	
+}
+
+.auto-log-content .auto-log-foot p button:hover{
+	
+	background-color: #000;
+}
+
+
+/*=====================Image Upload Modal===========================*/
+
+
+#upload-profile-image{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+#upload-profile-image form{
+	
+	
+	width: 100%;
+}
+
+#upload-profile-image form p{
+	
+	
+	width: 90%;
+}
+
+#upload-profile-image form p .upload-img{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	font-weight: bold;
+	height: 30px;
+	width: 100%;
+	
+}
+
+#upload-profile-image form p .upload-img:hover{
+	
+	
+	background-color: #000;
+	color: #FFF;
+	
+}
+
+#deactivation-confirm{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+
+

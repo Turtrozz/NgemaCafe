@@ -1,0 +1,575 @@
+/* CSS Document */
+
+
+.admin-wrap{
+	
+	max-width: 1500px;
+	width: 100%;
+	
+}
+
+.admin-wrap > article{
+	
+	
+	background-color: rgba(204,204,204,.2);
+	height: 90vh;
+	margin:0 auto;
+	width: 100%;
+	
+}
+
+.admin-wrap > article > section{
+	
+	float: left;
+	width: 20%;
+	
+}
+
+.admin-wrap > article > section:first-child{
+	
+	background-color: #0CF;
+	color: #FFF;
+	height: 100%;
+	
+}
+
+.admin-nav .admin-brand{
+	
+	padding-left: 3%;
+	
+}
+
+.admin-nav .admin-brand li{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.admin-nav .admin-brand span{
+	
+	font-size: 1.3em;
+	margin-left: 10%;
+	
+}
+
+
+.admin-nav .admin-user{
+	
+	
+	margin-top: 30px;
+	width: 100%;
+	
+	
+}
+
+
+.admin-nav .admin-user p{
+	
+	
+	width: 100%;
+	
+	
+}
+
+
+.admin-nav .admin-user  b{
+	
+	display: block;
+	float: left;
+	padding-left: 3%;
+	width: 35%;
+	
+	
+}
+
+.admin-nav .admin-user b:last-of-type{
+	
+	padding-top: 10px;
+	width: 59%;
+	
+	
+}
+
+.admin-nav .admin-user b:last-of-type small{
+	
+	display: block;
+	width: 100%;
+	
+	
+}
+
+.admin-nav .admin-user b:last-of-type small:last-of-type{
+	
+	font-size: 1em;
+	font-weight: bold;
+	
+	
+}
+
+
+.admin-nav .admin-links{
+	
+	margin-top: 30px;
+	
+	
+}
+
+.admin-nav .admin-links ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	
+	
+}
+
+.admin-nav .admin-links ul li{
+	
+	border-bottom: solid 1px rgba(255,255,255,.8);
+	height: 50px;
+	width: 100%;
+	
+	
+}
+
+.admin-nav .admin-links ul li a{
+	
+	background-color: #FFF;
+	color: #000;
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	width: 100%;
+	
+	
+}
+
+.admin-nav .admin-links ul li a:hover{
+	
+	color: #0CF;
+	
+	
+}
+
+
+.admin-nav .admin-links ul li a small{
+	
+	display: inline-block;
+	position: relative;
+	padding-left: 15%;
+	padding-top: 5%;
+	
+}
+
+
+.admin-wrap > article > section:nth-child(2){
+	
+	width: 80%;
+	
+}
+
+.admin-top{
+	
+	background-color: rgba(204,204,204,.6);
+	width: 100%;
+	
+}
+
+.admin-top section{
+	
+	position: relative;
+	left: 80%;
+	width: 20%;
+	
+}
+
+.admin-top section > b:first-child{
+	
+	margin-right: 15px;
+	
+}
+
+.admin-top section > b:last-child small{
+	
+	font-size: .9em;
+	font-weight:bold;
+	
+}
+
+
+.admin-info{
+	
+	color: #CCC;
+	font-size: 1.5em;
+	margin-top: 120px;
+	padding-left: 30%;
+	width: 50%;
+	
+}
+
+
+.admin-info b{
+	
+	display: block;
+	margin-bottom: 30px;
+	
+}
+
+.admin-info b:first-child{
+	
+	padding-left: 15%;
+	
+}
+
+.admin-footer{
+	
+	margin: 0 auto;
+	width: 98%;
+	
+}
+
+
+/*====================Product Category List admin page================*/
+
+
+.admin-rest > div{
+	
+	padding-left: 3%;
+	
+	
+}
+
+.admin-rest > div ul{
+	
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	
+	
+	
+	
+}
+
+.admin-rest > div ul li{
+	
+	border-bottom: solid 1px rgba(255,255,255,.8);
+	padding-top: 5%;
+	
+}
+
+.admin-rest > div ul li a{
+	
+	color: #000;
+	font-size: 1.3em;
+	padding-left: 5%;
+	text-decoration: none;
+}
+
+.admin-rest > div ul li a:hover{
+	
+	color: #0CF;
+	
+}
+
+/*====================Product Category List admin page================*/
+
+
+.admin-prod > div{
+	
+	padding-left: 3%;
+	
+	
+}
+
+.admin-prod > div section{
+	
+	float: left;
+	width: 25%;
+	
+	
+}
+
+.buttons{
+	
+	
+	background-color: rgba(0,0,0,1);
+	border: none;
+	border-radius: 3px;
+	color: #FFF;
+	height: 50px;
+	margin-right: 20px;
+	
+	
+}
+
+
+.buttons:hover{
+	
+	
+	background-color: #0CF;
+	
+	
+}
+
+
+
+.edit-form{
+	
+	
+	width: 100%;
+	
+}
+
+.edit-form form{
+
+	width: 100%;
+	
+}
+
+.edit-form form section{
+
+	float: left;
+	width: 50%;
+	
+}
+
+.edit-form form section:first-child{
+
+	padding-top: 20px;
+	
+}
+
+.edit-form form section:first-child label{
+
+	display: inline-block;
+	font-weight: bold;
+	margin-bottom: 25px;
+	width: 25%;
+	
+}
+
+.edit-form form section:first-child select{
+
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	
+}
+
+.edit-form form section:first-child input{
+
+
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	display: inline-block;
+	height: 30px;
+	padding-left: 3px;
+	width: 50%;
+	
+}
+
+
+.edit-form form section:last-child label{
+
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+	width: 15%;
+	
+}
+
+.edit-form form section:last-child textarea{
+
+	padding: 10px;
+	
+}
+
+
+.sub-buttons{
+	
+	
+	background-color: rgba(0,0,0,1);
+	border: none;
+	border-radius: 3px;
+	color: #FFF;
+	height: 40px;
+
+}
+
+.sub-buttons:hover{
+	
+	
+	background-color: #0CF;
+	
+	
+	
+}
+
+/*=================================Admin Modals===========================*/
+
+
+
+/*=====================Confirm Summary Cart Update Modal===========================*/
+
+
+#admin-action-alert{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+.confirmsum-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	position: relative;
+	top: 20%;
+	width: 35%; 
+	
+	
+}
+
+.confirmsum-content .confirmsum-cart-head{
+	
+	width: 100%;
+	
+	
+}
+
+.confirmsum-content .confirmsum-cart-head p{
+	
+	background-color: rgba(0,0,0,.8);
+	color:#FFF;
+	cursor: pointer;
+	font-size: 1.2em;
+	padding-top: 2%;
+	position: relative;
+	left: 95%;
+	text-align: center;
+	width: 5%;
+	
+	
+}
+.confirmsum-content .confirmsum-cart-head p:hover{
+	
+	background-color: #F00;
+	
+}
+
+.confirmsum-content .confirmsum-cart-body{
+	
+	padding-left: 4%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot{
+	
+	padding-bottom: 20px;
+	width: 100%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p{
+	
+	margin:0 auto;
+	width: 60%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	height: 30px;
+	width: 40%;
+	
+}
+
+.confirmsum-content .confirmsum-cart-foot p button:hover{
+	
+	background-color: #000;
+}
+
+
+/*=====================Confirm Notify Summary Cart Update Modal===========================*/
+
+
+#admin-action-change-response{
+	
+	
+	background-color: rgba(0,0,0,.2);
+	display: none;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	top:0;
+	width: 100%;
+	z-index: 160;	 
+}
+
+#admin-action-change-response .admin-action-content{
+	
+	background-color: #FFF;
+	margin:0 auto;
+	padding-top: 10px;
+	position: relative;
+	top: 25%;
+	width: 30%; 
+	
+	
+}
+
+.admin-action-content .confirm-cart-body p {
+	
+	padding-left: 10%;
+	
+}
+
+
+
+.admin-action-content .confirm-cart-foot p button{
+	
+	border: none;
+	border-radius: 3px;
+	background-color: #0CC;
+	color: #FFF;
+	height: 30px;
+	width: 100%;
+	
+}
+
+.admin-action-content .confirm-cart-foot p button:hover{
+	
+	background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,396 @@
+/* CSS Document */
+
+
+
+
+.u-alt-settings-content{
+	
+	
+	margin-left: 8%;
+	width: 70%;
+}
+
+
+.u-alt-settings-content .about-user > div{
+
+	float: left;	
+	width: 30%;
+
+	
+	
+}
+
+.u-alt-settings-content .about-user .avatar-content{
+
+	padding-top: 30px;
+
+}
+
+
+.avatar-content{
+	
+	
+	position: relative;
+	
+	
+	
+}
+
+.avatar-content .avatar {
+	
+	
+	border:solid thin #FFF;
+	border-radius:150px;
+	cursor: pointer;
+	
+}
+
+
+.avatar-content:hover .upload{
+
+	display: block;
+	
+	
+}
+
+.avatar-content .upload{
+	
+	background-color: rgba(0,0,0,.5);
+	bottom: 30px;
+	border-radius: 20px;
+	color: #FFF;
+	display: none;
+	font-size: .7em;
+	right: 50%;
+	position: absolute;
+	text-align: center;
+	width: 120px;
+	
+}
+
+
+
+.avatar-content .upload:hover {
+	
+	cursor: pointer;
+}
+
+
+.u-alt-settings-content .about-user > div:last-child{
+
+	width: 70%;
+	
+}
+
+.u-alt-settings-content .about-user form p textarea{
+
+	border:solid 1px #00CCFF;
+	height: 100px;
+	padding: 2%;
+	width: 90%;
+	
+}
+
+.u-alt-settings-content .about-user form p .sub{
+
+	border: none;
+	height: 50px;
+	font-size:1.1em;
+	font-weight: 600;
+	width: 30%;
+	
+	
+}
+
+.u-alt-settings-content .about-user form p .sub:hover{
+
+	color: #0CF;
+	
+	
+}
+
+
+.user-personal form{
+	
+	width: 100%;
+}
+
+.user-personal form p{
+	
+	width: 100%;
+}
+
+
+
+.user-personal form p span{
+	
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+.user-personal form p span label{
+	
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.user-personal form p span label small{
+	
+	color:#F00;
+	font-size: .8em;
+	margin-left: 5px;
+}
+
+.user-personal form p span input{
+	
+	
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 1%;
+	width: 70%;
+}
+
+.user-personal form p:last-child span{
+	
+	display: inline-block;
+	float: none;
+	width: 45%;
+}
+
+.user-personal form p:last-child span input{
+	
+	
+		
+	border: none;
+	border-radius: 3px;
+	display: inline-block;
+	font-size:1.1em;
+	font-weight: 600;
+	height: 50px;
+	margin-top: 30px;
+	width: 20%;
+	
+}
+
+
+.user-personal form p:last-child span input:hover{
+	
+	
+		
+	color: #0CF;
+	
+}
+
+.user-personal form .show-pass{
+
+
+	
+	border: none;
+	border-radius: 3px;
+	color: #0CF;
+	display: inline-block;
+	font-size:1em;
+	font-weight: 600;
+	margin-top: 4px;
+	right: 20%;
+	position: absolute;
+	width: 50pxs;
+	
+}
+
+.user-personal form .show-pass:hover{
+
+
+	background-color: #0CF;
+	color: #FFF;
+	
+}
+
+.account-deactivate .deactivate{
+	
+	
+	color: #FFF;
+	background-color: #0CF;
+	border: none;
+	border-radius: 3px;
+	display: inline-block;
+	font-size:1em;
+	font-weight: 600;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	
+	
+	
+	
+}
+
+
+.account-deactivate .deactivate:hover{
+	
+	
+	background-color: #000;
+	
+	
+
+}
+
+/*=====================User Checkout Page========================*/
+
+.checkout-form{
+	
+	width: 100%;
+	
+}
+
+.checkout-container{
+	
+	margin:0 auto;
+	width: 96%;
+	
+}
+
+.checkout-container h1{
+	
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 40%;
+	
+}
+
+.checkout-container > article{
+	
+	float: left;
+	width: 50%;
+	
+}
+.checkout-container > article form{
+	
+	margin-left: 5%;
+	width: 90%;
+	
+}
+
+.checkout-container > article form p {
+	
+	margin-bottom: 25px;
+	width: 100%;
+	
+}
+
+.checkout-container > article form p span{
+	
+	display: inline-block;
+	width: 45%;
+	
+}
+
+.checkout-container > article form p label{
+	
+	display: inline-block;
+	font-weight: bold;
+	width: 50%;
+	
+}
+
+.checkout-container > article form p input{
+	
+	border:solid 1px #0CF;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 1%;
+	width: 70%;
+	
+}
+.place-order{
+	
+	
+	color: #FFF;
+	background-color: #0CF;
+	border: none;
+	border-radius: 3px;
+	display: inline-block;
+	font-size:1.2em;
+	height: 50px;
+	width: 50%;
+	
+}
+
+.place-order:hover{
+	
+	
+	
+	background-color: #000;
+	
+	
+}
+
+.returning-customer{
+	
+	background-color: #393;
+	height: 80px;
+	width: 50%;
+	
+}
+
+.returning-customer small{
+	
+	color: #FFF;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 15px;
+	
+}
+
+.returning-customer small a{
+	
+	color: #CCC;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-decoration: none;
+	
+}
+
+.checkout-total-sum{
+
+	
+	border:solid 1px rgba(204,204,204,.4);
+	border-radius: 3px;
+	width: 80%;
+}
+
+.checkout-total-sum thead{
+
+	background-color: rgba(204,204,204,.3);
+	font-size: 1.1em;
+	font-weight: 700;
+	height: 50px;
+}
+
+.checkout-total-sum tr{
+
+	height: 30px;
+	
+}
+
+.checkout-total-sum td{
+
+	border:solid 1px #CCCCCC;
+	padding-left: 15%;
+	width: 16%;
+	
+}
+
+
+
+
+
+
+
+
